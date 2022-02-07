@@ -9,6 +9,11 @@ export const StyledLinkButton = styled.div`
   margin-bottom: 10px;
   transition: all 200ms;
   border-radius: 10px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   &:hover {
     background: rgba(0, 0, 0, 0.25);
@@ -16,15 +21,21 @@ export const StyledLinkButton = styled.div`
 
   a {
     padding: 10px 15px;
-    text-align: center;
     display: block;
     width: 100%;
     text-decoration: none;
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: #ffffff;
 
     &:hover {
       color: ${bluePalette[0]};
     }
+  }
+`;
+
+export const IconWrapper = styled.div`
+  svg {
+    fill: ${bluePalette[0]};
+    margin-left: 20px;
   }
 `;

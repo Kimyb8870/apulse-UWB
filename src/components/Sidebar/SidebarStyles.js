@@ -22,7 +22,7 @@ export const Logo = styled.img`
 export const Separator = styled.div`
   width: 100%;
   height: 0;
-  border-bottom: 1px solid ${bluePalette[9]};
+  border-bottom: 1px solid ${bluePalette[5]};
 `;
 
 export const LinkButtonWrapper = styled.div`

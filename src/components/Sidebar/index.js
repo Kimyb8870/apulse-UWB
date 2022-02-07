@@ -12,7 +12,7 @@ const Sidebar = () => {
       <Separator />
       <LinkButtonWrapper>
         {routingURLList.map((route) => (
-          <LinkButton>
+          <LinkButton icon={route.icon}>
             <Link to={route.path}>{route.type}</Link>
           </LinkButton>
         ))}
