@@ -1,0 +1,30 @@
+import styled from 'styled-components';
+import { bluePalette } from '../../../lib/palette';
+
+export const StyledLinkButton = styled.div`
+  width: 100%;
+  border: none;
+  outline: none;
+  background: ${bluePalette[8]};
+  margin-bottom: 10px;
+  transition: all 200ms;
+  border-radius: 10px;
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.25);
+  }
+
+  a {
+    padding: 10px 15px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: #ffffff;
+
+    &:hover {
+      color: ${bluePalette[0]};
+    }
+  }
+`;
