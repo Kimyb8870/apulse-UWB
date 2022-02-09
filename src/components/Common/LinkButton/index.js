@@ -1,9 +1,9 @@
 import React from 'react';
 import { StyledLinkButton, IconWrapper } from './LInkButtonStyles';
 
-const LinkButton = ({ icon, children }) => {
+const LinkButton = ({ icon, children, ...restProps }) => {
   return (
-    <StyledLinkButton>
+    <StyledLinkButton {...restProps}>
       <IconWrapper>{icon}</IconWrapper>
       {children}
     </StyledLinkButton>
