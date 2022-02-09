@@ -1,7 +1,8 @@
 import React from 'react';
+import MapPageLayout from '../layout/MapPage/MapPageLayout';
 
 const MapPage = () => {
-  return <div>map page</div>;
+  return <MapPageLayout />;
 };
 
 export default MapPage;
