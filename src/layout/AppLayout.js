@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyledAppLayout, FlexColumn } from './AppLayoutStyles';
+import { StyledAppLayout, FlexColumn, Main } from './AppLayoutStyles';
 import Sidebar from '../components/Sidebar';
 import Topbar from '../components/Topbar';
 

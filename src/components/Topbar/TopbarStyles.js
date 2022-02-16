@@ -2,6 +2,8 @@ import styled from 'styled-components';
 import { bluePalette, grayPalette } from '../../lib/palette';
 
 export const StyledTopbar = styled.div`
+  flex-basis: 10%;
+
   background-color: ${grayPalette[0]};
   box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.05);
 
