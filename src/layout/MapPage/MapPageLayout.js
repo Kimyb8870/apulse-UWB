@@ -4,6 +4,7 @@ import { grayPalette } from '../../lib/palette';
 import { bluePalette } from '../../lib/palette';
 import TagList from '../../components/TagList';
 import MapInfo from '../../components/MapInfo';
+import Map from '../../components/Map';
 
 const StyledMapLayout = styled.div`
   display: flex;
@@ -49,14 +50,15 @@ const MapPageLayout = () => {
 
         <MapRightTop>
           {/* todo: 아래 이미지 api확인 이후에 iframe으로 교체하기 */}
-          <img
+          {/* <img
             src="https://images.homify.com/image/upload/a_0,c_fill,f_auto,h_632,q_auto,w_632/v1519137567/p/photo/image/2443557/1_%C3%9A_%C3%88%C2%B5%C2%B5.jpg"
             style={{
               height: '100%',
               width: '100%',
               padding: '50px',
             }}
-          />
+          /> */}
+          <Map />
         </MapRightTop>
 
         <MarginBottom />
